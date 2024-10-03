@@ -1,0 +1,109 @@
+.header {
+    background-color: #340304;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 80;
+    padding: 0;
+    display: flex; /* Para mostrar los elementos en fila */
+    align-items: center; /* Alinea los elementos del menú verticalmente */
+}
+.nav-list li {
+    margin: 0 10px; /* Espaciado entre los ítems del menú */
+}
+.nav-list a{
+    padding:10px 20px;
+    background-color: #c65353;
+    color: white;
+    box-shadow: 0 4px 6px rgb(3, 90, 90); 
+}
+.title {
+    color: rgb(248, 249, 252);
+    font-size: 24px;
+    margin-right: 20px;
+    padding: 20px;
+    margin: 20px;
+    border: 20px solid rgb(119, 77, 77);
+    font-family: monospace;
+}
+
+.button{
+    columns: black;
+}
+.nav-list li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+section {
+    padding: 30px;
+    background-color: rgb(3, 90, 90);
+    text-align: center;
+}
+img{
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+section#about, section#services, section#contact {
+    background-color: #c65353;
+    color: black;
+    padding: 20px;
+    border: #340304;
+    margin-top: 10px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    padding: 20px;
+  }
+  .contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .producto {
+    display: inline-block;
+    width: 10%; /* Ajusta el ancho según sea necesario */
+    margin: 1.5%;
+    padding: 15px;
+    background-color: rgb(134, 115, 179);
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    vertical-align: top; /* Alineación vertical */
+  }
+  .producto img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .nombre {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  .precio {
+    color: rgb(13, 62, 13);
+    font-size: 1.1em;
+  }
+  .boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #193d64;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .boton:hover {
+    background-color: #090737;
+  }
